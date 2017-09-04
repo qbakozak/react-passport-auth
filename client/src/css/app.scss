@@ -1,0 +1,54 @@
+.main-container {
+  padding: 1em;
+  margin-top: 1em;
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+}
+
+.login-box {
+  margin: 1em auto;
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.icon-position-fix {
+  top: -2px;
+  position: relative;
+}
+
+.centre-page-info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 20em;
+  height: 10em;
+  margin-top: -5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -10em; /*set to a negative number 1/2 of your width*/
+  padding-top: 2em;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1000;
+}
+
+.centre-page-bg {
+  position: fixed !important;
+  background-color: lightgray;
+  filter: alpha(opacity=50); /* IE */
+  opacity: 0.5; /* Safari, Opera */
+  -moz-opacity: 0.5; /* FireFox */
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
