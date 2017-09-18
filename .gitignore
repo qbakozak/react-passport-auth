@@ -50,6 +50,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+# Npm
+package-lock.json
+
 # Optional eslint cache
 .eslintcache
 
@@ -71,5 +74,3 @@ config_clean.js
 
 # System files
 .DS_Store
-
-# End of https://www.gitignore.io/api/node
