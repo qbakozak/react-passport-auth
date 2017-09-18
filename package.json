@@ -1,6 +1,6 @@
 {
   "name": "react-passport-auth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React front end with Nodejs + Passport.js backend",
   "main": "index.js",
   "scripts": {
