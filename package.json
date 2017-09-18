@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-nodejs-passportjs",
+  "name": "react-passport-auth",
   "version": "1.0.0",
   "description": "React front end with Nodejs + Passport.js backend",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "deploy": "cross-env NODE_ENV=production webpack"
   },
   "author": "Jakub Kozakiewicz",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
     "bcrypt-nodejs": "0.0.3",
