@@ -12,10 +12,10 @@ React front end with Nodejs + Passport.js backend
 
 ## Installing
 
-Using npm:
+Clone repository:
 
 ```bash
-$ npm install react-passport-auth
+$ git clone https://github.com/qbakozak/react-passport-auth.git
 ```
 
 ## Configuring
